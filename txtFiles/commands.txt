@@ -1,6 +1,16 @@
 DOCUMENTO DEDICADO AOS COMANDOS DO TERMINAL LINUX 
 
+
+
+    echo $NOME_DA_VARIAVEL
+        "Mostra o conteudo de uma variavel de sistema especifica."
+
     env <enter>
         "Mostra todas as variaveis de sistema existentes"
     
-    
+    export NOME_DA_VARIAVEL
+        "Exposta a variavel do escopo local para global, ficando a aparecer no comando env"
+
+    which NOME_DO_COMANDO
+        "Retorna o caminho onde está o comando"
+        
