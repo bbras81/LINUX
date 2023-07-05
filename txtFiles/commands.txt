@@ -1,0 +1,6 @@
+DOCUMENTO DEDICADO AOS COMANDOS DO TERMINAL LINUX 
+
+    env <enter>
+        "Mostra todas as variaveis de sistema existentes"
+    
+    
