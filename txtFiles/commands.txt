@@ -1,6 +1,16 @@
 DOCUMENTO DEDICADO AOS COMANDOS DO TERMINAL LINUX 
+    COMANDO - PARAMETRO - ARGUMENTOS
+    COMANDO SEMPRE EM LETRA MINUSCULA 
+    OS COMANDOS SÃO SEPARADOS POR ESPAÇO
 
 
+----------------------------------------------------------------------------------
+    cd 
+        "Mudar de directório"
+        ~
+            "Direcciona para a pasta do utilizador"
+        -
+            "Volta para o caminho anterior"
 
     echo $NOME_DA_VARIAVEL
         "Mostra o conteudo de uma variavel de sistema especifica."
@@ -10,7 +20,47 @@ DOCUMENTO DEDICADO AOS COMANDOS DO TERMINAL LINUX
     
     export NOME_DA_VARIAVEL
         "Exposta a variavel do escopo local para global, ficando a aparecer no comando env"
+    history 
+        "Lista os comandos ja usados"
+
+
+    ls 
+        "Listar o conteudo de uma pasta"
+        -l
+            "lista o conteudo de uma pasta mais detalhado"
+        -a 
+            "lista todo o conteudo de uma pasta incluindo o oculto (.)"
+        -h 
+            "Lista os ficheiros om informações mais preceptiveis"
+        -R  
+            "Apresenta as pastas de forma recursiva"
+
+
+    man NOME_DO_COMANDO
+        "Retora o manual de um comando"
+    pwd  
+        "indica o path onde esta"
+
+    visudo
+        "Ficheiro onde gerir as premissoes dos utilizadores"
 
     which NOME_DO_COMANDO
         "Retorna o caminho onde está o comando"
         
+
+---------------------------------------------------------------------------------
+ARGUMENTOS DE REFERENCIA GLOBAL
+
+    *
+        "caracter que referencia uma ou várias letras no nome dos ficheiros"
+            "usr/bin/x* - Referencia todos os ficheiros que começam por x"
+            "usr/bin/*x*  - Referencia todos os ficheiros que contenham x"
+            "usr/bin/*xe  - Referencia todos os ficheiros que acabem em xe"
+    ?
+        "caracter que referencia uma  letra após"
+            "usr/bin/x? - Referencia todos os ficheiros comecem por x e tenham só mais uma letra a seguir"
+
+    [-]
+        "referecía uma sequência de caracteres"
+    [,]
+        "referecía dois caracteres ou um ou outro"
