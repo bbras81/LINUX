@@ -23,6 +23,17 @@ DOCUMENTO DEDICADO AOS COMANDOS DO TERMINAL LINUX
     history 
         "Lista os comandos ja usados"
 
+    kill 
+        "para enviar sinais para os processos"
+        -1
+            ""
+        -3
+            "processo é encerado normalmente"
+        -9  
+            "mata o programa"
+        -15
+            "Fechar o terminal"
+        
 
     ls 
         "Listar o conteudo de uma pasta"
@@ -38,8 +49,24 @@ DOCUMENTO DEDICADO AOS COMANDOS DO TERMINAL LINUX
 
     man NOME_DO_COMANDO
         "Retora o manual de um comando"
+
+    pgrep NOME_DA_APP
+        "Retorna o numero do processo"
+
+    ps 
+        "Lista os processos em execução"
+        -f 
+            "Mais informação de cada processo"
+        -e 
+            "todos os processos"
+        --forest
+            "lista em arvore"
+
     pwd  
         "indica o path onde esta"
+
+    htop
+        "programa que lista os processos em tempo real"
 
     visudo
         "Ficheiro onde gerir as premissoes dos utilizadores"
