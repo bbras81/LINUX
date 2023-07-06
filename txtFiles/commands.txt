@@ -11,6 +11,10 @@ DOCUMENTO DEDICADO AOS COMANDOS DO TERMINAL LINUX
             "Direcciona para a pasta do utilizador"
         -
             "Volta para o caminho anterior"
+    chmod 
+        "Comando para alterar as permissoes"
+            "passar permissão atraves da base octal 3 digitos para (utilizador, grupo, outros)
+
 
     echo $NOME_DA_VARIAVEL
         "Mostra o conteudo de uma variavel de sistema especifica."
@@ -68,6 +72,9 @@ DOCUMENTO DEDICADO AOS COMANDOS DO TERMINAL LINUX
     htop
         "programa que lista os processos em tempo real"
 
+    umask
+        ""
+
     visudo
         "Ficheiro onde gerir as premissoes dos utilizadores"
 
@@ -91,3 +98,15 @@ ARGUMENTOS DE REFERENCIA GLOBAL
         "referecía uma sequência de caracteres"
     [,]
         "referecía dois caracteres ou um ou outro"
+
+
+BASE OCTAL DE PERMISSOES
+
+    0 - nenhuma permissão
+    1 - permissão de execução
+    2 - permissão de gravação
+    3 - permissão de gravação e execução (2 + 1)
+    4 - permissão de leitura    
+    5 - permissão de execução e leitura (4 + 1)
+    6 - permissão de leitura e gravação (4 + 2)
+    7 - permissão de leitura, gravação e execução (4 + 2 + 1)
