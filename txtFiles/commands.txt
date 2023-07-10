@@ -5,6 +5,11 @@ DOCUMENTO DEDICADO AOS COMANDOS DO TERMINAL LINUX
 
 
 ----------------------------------------------------------------------------------
+    apt
+        "Comando que serve para instalar pacotes pelos repositorios"
+        t
+    
+    
     cd 
         "Mudar de directório"
         ~
@@ -14,7 +19,13 @@ DOCUMENTO DEDICADO AOS COMANDOS DO TERMINAL LINUX
     chmod 
         "Comando para alterar as permissoes"
             "passar permissão atraves da base octal 3 digitos para (utilizador, grupo, outros)
-
+    date 
+        "Apresenta a data  hora do sistema"
+    df 
+        "lista o uso do disco"
+            -h
+    dpkg
+        "Comando que serve para instalar pacotes por download (.deb)"
 
     echo $NOME_DA_VARIAVEL
         "Mostra o conteudo de uma variavel de sistema especifica."
@@ -24,6 +35,11 @@ DOCUMENTO DEDICADO AOS COMANDOS DO TERMINAL LINUX
     
     export NOME_DA_VARIAVEL
         "Exposta a variavel do escopo local para global, ficando a aparecer no comando env"
+    
+    free 
+        "Apresenta a utilização da memória"
+            -h
+                "Apresenta medidas mais legiveis"
     history 
         "Lista os comandos ja usados"
 
@@ -38,6 +54,8 @@ DOCUMENTO DEDICADO AOS COMANDOS DO TERMINAL LINUX
         -15
             "Fechar o terminal"
         
+    less 
+        "manipulador de texto - passar o caminho como parametro"
 
     ls 
         "Listar o conteudo de uma pasta"
@@ -54,6 +72,8 @@ DOCUMENTO DEDICADO AOS COMANDOS DO TERMINAL LINUX
     man NOME_DO_COMANDO
         "Retora o manual de um comando"
 
+    
+
     pgrep NOME_DA_APP
         "Retorna o numero do processo"
 
@@ -69,6 +89,9 @@ DOCUMENTO DEDICADO AOS COMANDOS DO TERMINAL LINUX
     pwd  
         "indica o path onde esta"
 
+    sort 
+        "Ordena por ordem crescente os valores de um ficheiro"
+
     htop
         "programa que lista os processos em tempo real"
 
@@ -78,6 +101,9 @@ DOCUMENTO DEDICADO AOS COMANDOS DO TERMINAL LINUX
     visudo
         "Ficheiro onde gerir as premissoes dos utilizadores"
 
+    wc 
+        "retorna a quantidade de linhas e palavras que tem um ficheiro"
+    
     which NOME_DO_COMANDO
         "Retorna o caminho onde está o comando"
         
