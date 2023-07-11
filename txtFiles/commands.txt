@@ -17,7 +17,7 @@ DOCUMENTO DEDICADO AOS COMANDOS DO TERMINAL LINUX
         -
             "Volta para o caminho anterior"
     chmod 
-        "Comando para alterar as permissoes"
+        "Comando para alterar as permições"
             "passar permissão atraves da base octal 3 digitos para (utilizador, grupo, outros)
     date 
         "Apresenta a data  hora do sistema"
