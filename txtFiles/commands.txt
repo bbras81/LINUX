@@ -35,7 +35,12 @@ DOCUMENTO DEDICADO AOS COMANDOS DO TERMINAL LINUX
     
     export NOME_DA_VARIAVEL
         "Exposta a variavel do escopo local para global, ficando a aparecer no comando env"
-    
+
+    dmesg
+        "Retorna as mensagens de inicialização da maquina"
+
+
+
     free 
         "Apresenta a utilização da memória"
             -h
@@ -89,14 +94,27 @@ DOCUMENTO DEDICADO AOS COMANDOS DO TERMINAL LINUX
     pwd  
         "indica o path onde esta"
 
+    sync
+        "forca a maquina a sncronizar para trabalhar com pen's essencialmente"
+
     sort 
         "Ordena por ordem crescente os valores de um ficheiro"
+
+    time    
+        "Retorna o tempo de execução de um comando"
+    
+    touch 
+        "Cria um arquivo"
 
     htop
         "programa que lista os processos em tempo real"
 
     umask
         ""
+    uname 
+    
+    uptime
+        "Retorna o tempo que a maquina está ligada"
 
     visudo
         "Ficheiro onde gerir as premissoes dos utilizadores"
